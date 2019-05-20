@@ -15,7 +15,6 @@ class App extends React.Component {
   handleChange(e) {
     this.setState({ value: e.target.value }, () => {});
   }
-
   handleSearch = event => {
     if (event.target.value !== "") {
       this.state.catItems.forEach(element => {
